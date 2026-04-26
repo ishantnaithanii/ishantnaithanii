@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:backgroundTint="#7CC1B8"
+    app:cardCornerRadius="8dp"
+    android:layout_width="410sp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="UselessParent">
+        <TextView
+            android:id="@+id/titleDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Marks"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="8dp"
+            android:background="#000"/>
+        <TextView
+            android:id="@+id/updateDialogTv1"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:textColor="#000"
+            android:text="Roll"
+            android:textSize="20sp"
+            android:layout_margin="8dp"
+            tools:ignore="Autofill,HardcodedText,TextFields"/>
+        <TextView
+            android:id="@+id/updateDialogTv2"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:text="Name"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:layout_margin="8dp"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+        <EditText
+            android:id="@+id/updateDialogEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Marks"
+            android:textColor="#000"
+            android:layout_margin="8dp"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+<!--        <RelativeLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+<!--            <LinearLayout-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+<!--                <androidx.appcompat.widget.AppCompatButton-->
+<!--                    android:layout_weight="0.33"-->
+<!--                    android:id="@+id/updateDialogCancelBtn"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_marginLeft="8dp"-->
+<!--                    android:textColor="#FBF8F8"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:background="@drawable/rounded_button_colored"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Cancel"-->
+<!--                    tools:ignore="HardcodedText,RtlHardcoded" />-->
+<!--                <TextView-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="0.33"/>-->
+<!--                <androidx.appcompat.widget.AppCompatButton-->
+<!--                    android:layout_weight="0.33"-->
+<!--                    android:id="@+id/updateDialogAddBtn"-->
+<!--                    android:layout_marginRight="8dp"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:textColor="#FBF8F8"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@drawable/rounded_button_colored"-->
+<!--                    android:text="Add"-->
+<!--                    tools:ignore="HardcodedText,RtlHardcoded" />-->
+<!--            </LinearLayout>-->
+<!--        </RelativeLayout>-->
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

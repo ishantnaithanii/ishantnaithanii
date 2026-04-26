@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "222739107808",
+    "project_id": "edu-app-1ee5f",
+    "storage_bucket": "edu-app-1ee5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222739107808:android:d88e30ea7d7aed50332585",
+        "android_client_info": {
+          "package_name": "com.example.EDUAppGPSrinagar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwEPGfvzediDn_a7V0XKX5g_fZk6QX6QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

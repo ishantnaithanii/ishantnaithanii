@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="present">#3300C500</color>
+    <color name="absent">#33FF0000</color>
+    <color name="normal">#FFFFFFFF</color>
+    <color name="medical">#DFD07E</color>
+    <color name="main1">#00ff8f</color>
+    <color name="main2">#00a1ff</color>
+    <color name="grey">#f5f5f5</color>
+    <color name="dark_Green">#006400</color>
+    <color name="purple">#8692f7</color>
+
+</resources>

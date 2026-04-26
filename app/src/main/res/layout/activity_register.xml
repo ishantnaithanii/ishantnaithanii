@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registerback"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".Login_and_Register.Register">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        tools:ignore="UselessParent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            app:cardElevation="18sp"
+            android:layout_marginTop="130dp"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center"
+            app:cardCornerRadius="20sp"
+            tools:ignore="UnusedAttribute">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:text="Welcome !"
+            android:textSize="42sp"
+            android:layout_marginStart="6sp"
+            android:textColor="#104BED"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-smallcaps"
+            tools:ignore="HardcodedText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="Register Here"
+        android:textSize="38sp"
+        android:layout_marginStart="15sp"
+        android:textColor="@color/purple"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/border2"
+        android:ems="10"
+        android:padding="8sp"
+        android:textColorHint="#918F8F"
+        android:fontFamily="@font/amiko"
+        android:hint="Full Name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textSize="23sp"
+        tools:ignore="HardcodedText,LabelFor" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:padding="8sp"
+        android:textColorHint="#918F8F"
+        android:background="@drawable/border2"
+        android:ems="10"
+        android:fontFamily="@font/amiko"
+        android:hint="Email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,LabelFor,TextFields" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:textColorHint="#918F8F"
+        android:padding="8sp"
+        android:background="@drawable/border2"
+        android:ems="10"
+        android:fontFamily="@font/amiko"
+        android:hint="Password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColor="#000"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,LabelFor,TextFields" />
+
+    <EditText
+        android:id="@+id/register_Dob"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:padding="8sp"
+        android:textColorHint="#918F8F"
+        android:background="@drawable/border2"
+        android:ems="10"
+        android:fontFamily="@font/amiko"
+        android:hint="Select DOB (dd/mm/yyyy)"
+        android:importantForAutofill="no"
+        android:focusable="false"
+        android:inputType="date"
+        android:textColor="#000"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,LabelFor,TextFields"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/register_radioGroup"
+        android:background="@drawable/border2"
+        android:fontFamily="@font/amiko"
+        android:textColorHint="#918F8F"
+        android:layout_marginTop="5sp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10sp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_female"
+            android:text="Female"
+            android:fontFamily="@font/amiko"
+            android:textSize="20sp"
+            android:textColor="#555555"
+            tools:ignore="HardcodedText" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_male"
+            android:fontFamily="@font/amiko"
+            android:layout_marginStart="70dp"
+            android:text="Male"
+            android:textSize="20sp"
+            android:textColor="#555555"
+            tools:ignore="HardcodedText" />
+    </RadioGroup>
+
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/branch"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:fontFamily="@font/amiko"
+        android:ems="10"
+        android:padding="8sp"
+        android:background="@drawable/border2"
+        android:textColorHint="#918F8F"
+        android:inputType="text"
+        android:hint="Department"
+        android:textColor="#000"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:layout_marginEnd="10dp"
+        tools:ignore="HardcodedText,LabelFor"
+        android:importantForAutofill="no" />
+
+
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/border2"
+        android:ems="10"
+        android:padding="8sp"
+        android:fontFamily="@font/amiko"
+        android:textColorHint="#918F8F"
+        android:hint="Mobile"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textColor="#000"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText,LabelFor" />
+        <EditText
+            android:layout_marginTop="5dp"
+            android:id="@+id/clg_Pwd"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:fontFamily="@font/amiko"
+            android:ems="10"
+            android:background="@drawable/border2"
+            android:inputType="text"
+            android:padding="8sp"
+            android:textColor="#000"
+            android:hint="Your college Id"
+            android:textColorHint="#918F8F"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"
+            android:layout_marginEnd="10dp"
+            tools:ignore="HardcodedText,LabelFor"
+            android:importantForAutofill="no" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+        <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape1"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Register"
+        android:textSize="28sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/register_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF0505"
+        android:textSize="20sp"
+        android:layout_marginBottom="30sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Already Registered? Login Here"
+        android:layout_gravity="center"
+        tools:ignore="HardcodedText" />
+    </LinearLayout></androidx.cardview.widget.CardView>
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="9sp"
+    android:layout_margin="6dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#D6ECE9"
+        android:padding="7sp">
+
+        <TextView
+            android:id="@+id/student2RollNo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Roll No."
+            android:layout_marginTop="4sp"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/student2Name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/student2Marks2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Marks"
+            android:layout_marginTop="4sp"
+            android:layout_marginEnd="10sp"
+            android:textColor="@color/black"
+            android:textColorHint="#3E3C3C"
+            android:textSize="21sp"
+            tools:ignore="HardcodedText,TextFields" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

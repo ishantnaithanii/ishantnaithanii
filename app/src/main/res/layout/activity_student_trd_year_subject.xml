@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FBF9F9"
+    android:layout_height="match_parent"
+    tools:context=".Marks.Student_TrdYearSubject">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/trdYearToolbarStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple">
+        <ImageButton
+            android:id="@+id/trdYearToolbar_btnStudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:src="@drawable/baseline_arrow_back_24"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/trdYearToolbarTvStudent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THIRD YEAR SUBJECT"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5sp"
+                android:background="#A2DDE6"
+                android:layout_margin="5sp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5th Semester"
+                    android:textSize="33sp"
+                    android:gravity="center"
+                    android:textColor="#474343"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-smallcaps"
+                    tools:ignore="HardcodedText" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:background="#000"
+                    tools:ignore="SmallSp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:layout_marginTop="2sp"
+                    android:background="#000"
+                    tools:ignore="SmallSp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:background="#D4EADD"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CT - 01"
+                        android:textSize="28sp"
+                        android:gravity="center"
+                        android:textColor="#474343"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-smallcaps"
+                        tools:ignore="HardcodedText" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:background="#000"
+                        tools:ignore="SmallSp" />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerCt1Sem5SubStudent"
+                        android:layout_margin="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:background="#D4EADD"
+                    android:orientation="vertical">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:background="#000"
+                        tools:ignore="SmallSp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mid - Term"
+                        android:textSize="28sp"
+                        android:gravity="center"
+                        android:textColor="#474343"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-smallcaps"
+                        tools:ignore="HardcodedText" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:background="#000"
+                        tools:ignore="SmallSp" />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerMidSem5SubStudent"
+                        android:layout_margin="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5sp"
+                    android:background="#D4EADD"
+                    android:orientation="vertical">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:background="#000"
+                        tools:ignore="SmallSp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CT - 02"
+                        android:textSize="28sp"
+                        android:gravity="center"
+                        android:textColor="#474343"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-smallcaps"
+                        tools:ignore="HardcodedText" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:background="#000"
+                        tools:ignore="SmallSp" />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerCt2Sem5SubStudent"
+                        android:layout_margin="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5sp"
+                android:background="#9BEDE4"
+                android:layout_margin="5sp"
+                android:orientation="vertical"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="6th Semester"
+                    android:textSize="33sp"
+                    android:gravity="center"
+                    android:textColor="#474343"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-smallcaps"
+                    tools:ignore="HardcodedText" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:background="#000"
+                    tools:ignore="SmallSp" />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:layout_marginTop="2sp"
+                    android:background="#000"
+                    tools:ignore="SmallSp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="5sp"
+                    android:background="#EFE8EB">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CT - 01"
+                        android:textSize="28sp"
+                        android:gravity="center"
+                        android:textColor="#474343"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-smallcaps"
+                        tools:ignore="HardcodedText" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:background="#000"
+                        tools:ignore="SmallSp" />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerCt1Sem6SubStudent"
+                        android:layout_margin="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#EFE8EB"
+                    android:layout_margin="5sp">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:background="#000"
+                        tools:ignore="SmallSp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mid - term"
+                        android:textSize="28sp"
+                        android:gravity="center"
+                        android:textColor="#474343"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-smallcaps"
+                        tools:ignore="HardcodedText" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:background="#000"
+                        tools:ignore="SmallSp" />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerMidSem6SubStudent"
+                        android:layout_margin="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#EFE8EB"
+                    android:layout_margin="5sp">
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:background="#000"
+                        tools:ignore="SmallSp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CT - 02"
+                        android:textSize="28sp"
+                        android:gravity="center"
+                        android:textColor="#474343"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-smallcaps"
+                        tools:ignore="HardcodedText" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1sp"
+                        android:background="#000"
+                        tools:ignore="SmallSp" />
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerCt2Sem6SubStudent"
+                        android:layout_margin="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
